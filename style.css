@@ -1,0 +1,126 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,rembed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+/* 
+
+grün: #52965f;
+blau: #529096;
+rot: #965252;
+gelb: #a8a954;
+orange: #d69e4f;
+lila: #a355c0;
+
+*/
+
+body {
+	font-family: "Calibri Light", "Calibri", "Verdana", "Arial", "Times new Roman";
+	background:#d0d0d0;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+b { font-weight: bold;}
+
+::selection {background: #000;color: red;}
+::-moz-selection {background: #000;color: red;}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#wrapper {
+	padding:30px 0px;
+	max-width:810px;
+	margin:auto;
+	position:relative;
+}
+
+h1 { font-size: 3rem; text-align: left;margin:auto;margin-bottom: 2rem;width:98%;display:block; }
+img { 
+	position: absolute;
+	top:0px;
+	right: 0px;
+}
+h3 { font-size: 1.3rem;margin-bottom:.5rem}
+h2 { font-size: 2rem; text-shadow: 2px 2px 2px #aaa;}
+div.category h2 {
+	width:98%;
+	margin:0 auto;
+	display: block;
+	text-align: left;
+	font-weight: bold;
+	color:#000;
+	margin-bottom:1.5rem;
+}
+div.category {
+	margin-bottom: 3rem
+}
+div.fragen_wrapper {
+	margin:0 auto;
+	width:98%;
+	clear:left;
+	margin-bottom:1.5rem;
+	padding-bottom: 0px;
+}
+/* Farben */
+	div.fragen_wrapper { box-shadow: 0px 0px 3px #aaa}
+
+		div.cat2 div.fragen_wrapper {	background: #52965f; 	}
+		div.cat2 h2 {color:#52965f;}
+	div.cat3 div.fragen_wrapper {	background: #529096; 	}
+	div.cat3 h2 {color:#529096;}
+		div.cat4 div.fragen_wrapper {	background: #965252; 	}
+		div.cat4 h2 {color:#965252;}
+	div.cat5 div.fragen_wrapper {	background: #f1bc1a; 	}
+	div.cat5 h2 {color:#f1bc1a;}
+		div.cat6 div.fragen_wrapper {	background: #8a5bae; 	}
+		div.cat6 h2 {color:#8a5bae;}
+
+div.frage {
+	background: #efefef;
+	padding:1rem;
+	width:90%;
+}
+div.fullwidth { width:100%;}
+div.counter, div.frage {
+	float:left;
+}
+div.counter {
+	width:10%;
+	color:white;
+	font-size: 1.2rem;
+	padding-top: 30px;
+	text-align: center;
+	height:100%;
+}
+input[type=text]{
+	width:100%;
+	border:1px solid lightgrey;
+	padding:0px 3px;
+}
+input[type=radio]{
+	margin-bottom: 5px;
+}
+#b_submit{
+	border:none;
+	background:#555;
+	color:white;
+	padding:.7rem 0;
+	font-weight: normal;
+	font-size: 1.2rem;
+	width:98%;
+	display: block;
+	margin:0 auto;
+}
+#b_submit:hover {
+	background:#333;
+	cursor: pointer;
+}
+input:focus, input:hover {
+	border-color:#333;
+}

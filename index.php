@@ -46,7 +46,7 @@
 
 	<div id="wrapper">
 		<h1>Umfrage: <b>Bekleidung</b></h1>
-		<p class="intro">Die Umfrage ist völlig Anonym und dient nur zu Schulungszwecken</p>
+		<p class="intro">Die Umfrage ist völlig Anonym und dient lediglich zu Schulungszwecken</p>
 		<!--img-->
 
 		<form action="danke.php" method="POST">
@@ -180,7 +180,7 @@
 
 			<!-- Kategorie 3 -->
 			<div class="category cat4">
-				<h2>Sonstike Kaufkriterien</h2>
+				<h2>Sonstige Kaufkriterien</h2>
 
 				<!-- Frage 10 -->
 				<div class="fragen_wrapper clearfix">
@@ -315,7 +315,7 @@
 
 			</div>
 
-			<input id="b_submit" onclick="checkifeverythingisfilledyey()" type="submit" name="b_absenden">
+			<input value="Senden" id="b_submit" type="submit" name="b_absenden">
 		</form>
 	</div>
 </body>

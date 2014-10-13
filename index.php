@@ -46,6 +46,7 @@
 
 	<div id="wrapper">
 		<h1>Umfrage: <b>Bekleidung</b></h1>
+		<p class="intro">Die Umfrage ist völlig Anonym und dient nur zu Schulungszwecken</p>
 		<!--img-->
 
 		<form action="danke.php" method="POST">
@@ -82,7 +83,7 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">1</div>
 					<div class="frage">
-						<h3>Schätzen Sie, wie viele Kleidungsstücke Sie besitzen (ausgenommen Unterwüsche & Schuhe)</h3>
+						<h3>Schätzen Sie, wie viele Kleidungsstücke Sie besitzen (ausgenommen Unterwäsche & Schuhe)</h3>
 						<p><input type="text" onChange="checkValue('frage1')" id="frage1" name="frage1"></p>
 					</div>
 				</div>
@@ -113,13 +114,13 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">4</div>
 					<div class="frage">
-						<h3>Wieviel Geld geben Sie jährlich ca für Klamotten aus?</h3>
+						<h3>Wieviel Geld geben Sie jährlich ca. für Klamotten aus?</h3>
 						<p><input type="radio" name="frage4" id="frage4_1" value="0-100"><label for="frage4_1">0-50</label></p>
 						<p><input type="radio" name="frage4" id="frage4_2" value="50-150"><label for="frage4_2">50-150</label></p>
 						<p><input type="radio" name="frage4" id="frage4_3" value="150-300"><label for="frage4_3">150-300</label></p>
 						<p><input type="radio" name="frage4" id="frage4_4" value="300-600"><label for="frage4_4">300-600</label></p>
 						<p><input type="radio" name="frage4" id="frage4_5" value="600-1000"><label for="frage4_5">600-1000</label></p>
-						<p><input type="radio" name="frage4" id="frage4_6" value=">1000"><label for="frage4_5">Mehr als 1000</label></p>
+						<p><input type="radio" name="frage4" id="frage4_6" value=">1000"><label for="frage4_6">Mehr als 1000</label></p>
 					</div>
 				</div>
 
@@ -234,8 +235,8 @@
 					<div class="frage">
 						<h3>Wann bzw. warum kaufen Sie Klamotten?</h3>
 						<p><input type="radio" name="frage13" id="frage13_1" value="wenn noetig"><label for="frage13_1">Nur, wenn ich wirklich neue brauche</label></p>
-						<p><input type="radio" name="frage13" id="frage13_2" value="neuer trend"><label for="frage13_1">Sobald neue Kollektionen erscheinen/neue Trends</label></p>
-						<p><input type="radio" name="frage13" id="frage13_3" value="spontan"><label for="frage13_1">Spontan, wenn mir danach ist</label></p>
+						<p><input type="radio" name="frage13" id="frage13_2" value="neuer trend"><label for="frage13_2">Sobald neue Kollektionen erscheinen/neue Trends</label></p>
+						<p><input type="radio" name="frage13" id="frage13_3" value="spontan"><label for="frage13_3">Spontan, wenn mir danach ist</label></p>
 					</div>
 				</div>
 
@@ -273,10 +274,11 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">16</div>
 					<div class="frage">
-						<h3>Wie denken Sie über Klamotten die unter Fragwürdigen Bedingungen hergestellt wurden?</h3> 
+						<h3>Wie denken Sie über Klamotten, die unter fragwürdigen Bedingungen hergestellt wurden?</h3> 
 						<p><input type="radio" name="frage16" id="frage16_1" value="egal"><label for="frage16_1">Ist mir egal, hauptsache günstig.</label></p>
 						<p><input type="radio" name="frage16" id="frage16_2" value="wuerde gerne"><label for="frage16_2">Ich würde gerne darauf achten, aber wo soll man dann noch etwas kaufen?</label></p>
-						<p><input type="radio" name="frage16" id="frage16_3" value="wichtig"><label for="frage16_3">Ich achte sehr darauf und kaufe keine Kleidung, die unter schlechten Bedingungen hergestellt wird.</label></p>
+						<p><input type="radio" name="frage16" id="frage16_3" value="wenn moeglich"><label for="frage16_3">Wenn möglich, kaufe ich nur Kleidung, die nicht unter schlechten Bedingungen hergestellt wird.</label></p>
+						<p><input type="radio" name="frage16" id="frage16_4" value="wichtig"><label for="frage16_4">Ich achte sehr darauf und kaufe keine Kleidung, die unter schlechten Bedingungen hergestellt wird.</label></p>
 					</div>
 				</div>
 

@@ -41,6 +41,7 @@ b { font-weight: bold;}
 }
 
 h1 { font-size: 3rem; text-align: left;margin:auto;margin-bottom: 2rem;width:98%;display:block; }
+p.intro { display: block;width:98%;margin:0 auto 1rem auto;color:#444;}
 img { 
 	position: absolute;
 	top:0px;

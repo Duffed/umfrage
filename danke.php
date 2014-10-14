@@ -50,7 +50,7 @@
 				$frage7 = $_POST["frage7"];
 				$frage8 = $_POST["frage8"];
 				$frage9 = $_POST["frage9"];
-				$frage10 = $_POST["frage10"];
+				$frage10 = $_POST["frage10"]; //Array
 				$frage11 = $_POST["frage11"];
 				$frage12 = $_POST["frage12"];
 				$frage13 = $_POST["frage13"];
@@ -61,8 +61,11 @@
 				$frage18 = $_POST["frage18"];
 				$frage19 = $_POST["frage19"];	
 
+				//implode array
+				$frage10_implode = implode(", ",$frage10);
 				?>
 					<h1>Dankeschön</h1>
+
 				<?php
 
 				mysql_query("INSERT INTO `$tname`(
@@ -99,7 +102,7 @@
 					'$frage7',
 					'$frage8',
 					'$frage9',
-					'$frage10',
+					'$frage10_implode',
 					'$frage11',
 					'$frage12',
 					'$frage13',

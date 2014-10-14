@@ -187,12 +187,12 @@
 					<div class="counter">10</div>
 					<div class="frage">
 						<h3>Kreuzen Sie bitte an, was Ihnen beim Kauf von Kleidungsstücken generell wichtig ist</h3>
-						<p><input type="checkbox" name="frage10" id="frage10_1" value="Marke"><label for="frage10_1">Die Marke/Firma</p>
-						<p><input type="checkbox" name="frage10" id="frage10_2" value="Qualitaet"><label for="frage10_2">Die Qualität des Produktes</p>
-						<p><input type="checkbox" name="frage10" id="frage10_3" value="Trend"><label for="frage10_3">Das Produkt soll im Trend liegen/in der Mode sein</p>
-						<p><input type="checkbox" name="frage10" id="frage10_4" value="Preis"><label for="frage10_4">Der Preis sollte möglichst niedrig sein</p>
-						<p><input type="checkbox" name="frage10" id="frage10_5" value="Herstellungsbedingungen"><label for="frage10_5">Die Bedingungen bei der Herstellung für die Arbeiter (Fairtrade)</p>
-						<p><input type="checkbox" name="frage10" id="frage10_6" value="Pflegeleicht"><label for="frage10_6">Das Kleidungsstück muss Pflegeleicht sein</p>
+						<p><input type="checkbox" name="frage10[]" id="frage10_1" value="Marke"><label for="frage10_1">Die Marke/Firma</p>
+						<p><input type="checkbox" name="frage10[]" id="frage10_2" value="Qualitaet"><label for="frage10_2">Die Qualität des Produktes</p>
+						<p><input type="checkbox" name="frage10[]" id="frage10_3" value="Trend"><label for="frage10_3">Das Produkt soll im Trend liegen/in der Mode sein</p>
+						<p><input type="checkbox" name="frage10[]" id="frage10_4" value="Preis"><label for="frage10_4">Der Preis sollte möglichst niedrig sein</p>
+						<p><input type="checkbox" name="frage10[]" id="frage10_5" value="Herstellungsbedingungen"><label for="frage10_5">Die Bedingungen bei der Herstellung für die Arbeiter (Fairtrade)</p>
+						<p><input type="checkbox" name="frage10[]" id="frage10_6" value="Pflegeleicht"><label for="frage10_6">Das Kleidungsstück muss Pflegeleicht sein</p>
 					</div>
 				</div>
 

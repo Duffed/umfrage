@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>		
-		<title>Umfrage zum Thema Ernährung</title>
+		<title>Umfrage zum Thema Bekleidung</title>
 		<meta name="author" content="Joscha Diederichs & Max Gundlach">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<LINK REL="SHORTCUT ICON" HREF="favicon.ico">

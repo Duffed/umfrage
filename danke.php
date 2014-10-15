@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>		
-		<title>Umfrage zum Thema Ernährung</title>
+		<title>Umfrage zum Thema Bekleidung</title>
 		<meta name="author" content="Joscha Diederichs & Max Gundlach">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<LINK REL="SHORTCUT ICON" HREF="favicon.ico">
@@ -11,7 +11,7 @@
 <body>
 	<div id="wrapper">
 		
-	<div class="frage fullwidth">
+	<div class="frage fullwidth ">
 	<?php
 		include( 'functions/funktionen.inc.php' );
 		$conid = db_connect();
@@ -64,9 +64,12 @@
 				//implode array
 				$frage10_implode = implode(", ",$frage10);
 				?>
-					<h1>Dankeschön</h1>
+					<h1 class="danke">Vielen Dank für die Teilnahme</h1>
 
 				<?php
+
+				//Weiterleitung
+				Header("refresh:2;index.php");
 
 				mysql_query("INSERT INTO `$tname`(
 					`alter`, 
@@ -114,6 +117,7 @@
 					'$frage19'
 				)");
 
+				
 			}
 		}
 

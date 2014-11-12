@@ -101,7 +101,7 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">3</div>
 					<div class="frage">
-						<h3>Wie oft gehen Sie shoppen/Klamotten kaufen?</h3>
+						<h3>Wie oft gehen Sie shoppen/Kleidung kaufen?</h3>
 						<p><input type="radio" name="frage3" id="frage3_1" value="mehrmals die woche"><label for="frage3_1">Mehrmals die Woche</label></p>
 						<p><input type="radio" name="frage3" id="frage3_2" value="woechentlich"><label for="frage3_2">Wöchtenlich</label></p>
 						<p><input type="radio" name="frage3" id="frage3_3" value="monatlich"><label for="frage3_3">Monatlich</label></p>
@@ -114,7 +114,7 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">4</div>
 					<div class="frage">
-						<h3>Wieviel Geld geben Sie jährlich ca. für Klamotten aus?</h3>
+						<h3>Wieviel Geld geben Sie jährlich ca. für Kleidung aus?</h3>
 						<p><input type="radio" name="frage4" id="frage4_1" value="0-100"><label for="frage4_1">0-50</label></p>
 						<p><input type="radio" name="frage4" id="frage4_2" value="50-150"><label for="frage4_2">50-150</label></p>
 						<p><input type="radio" name="frage4" id="frage4_3" value="150-300"><label for="frage4_3">150-300</label></p>
@@ -233,7 +233,7 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">13</div>
 					<div class="frage">
-						<h3>Wann bzw. warum kaufen Sie Klamotten?</h3>
+						<h3>Wann bzw. warum kaufen Sie Kleidung?</h3>
 						<p><input type="radio" name="frage13" id="frage13_1" value="wenn noetig"><label for="frage13_1">Nur, wenn ich wirklich neue brauche</label></p>
 						<p><input type="radio" name="frage13" id="frage13_2" value="neuer trend"><label for="frage13_2">Sobald neue Kollektionen erscheinen/neue Trends</label></p>
 						<p><input type="radio" name="frage13" id="frage13_3" value="spontan"><label for="frage13_3">Spontan, wenn mir danach ist</label></p>
@@ -245,7 +245,7 @@
 					<div class="counter">14</div>
 					<div class="frage">
 						<h3>Kaufen Sie Mode eher bewusst oder spontan ein?</h3> 
-						<p>0 = Ich überlege genau, bevor ich mir neue Klamotten kaufe </p>
+						<p>0 = Ich überlege genau, bevor ich mir neue Kleidung kaufe </p>
 						<p>10 = Ich liebe shoppen und erwische mich regelmäßig dabei, spontan etwas zu kaufen</p>
 						<p><input type="text" name="frage14" id="frage14" onChange="checkif0to10('frage14')"></p>
 					</div>
@@ -255,9 +255,9 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">15</div>
 					<div class="frage">
-						<h3>Wo kaufen Sie am liebsten Klamotten?</h3> 
+						<h3>Wo kaufen Sie am liebsten Kleidung?</h3> 
 						<p><input type="radio" name="frage15" id="frage15_1" value="internet"><label for="frage15_1">Im Internet</label></p>
-						<p><input type="radio" name="frage15" id="frage15_2" value="klamottengeschaeft"><label for="frage15_2">Im Klamotten-Geschäft</label></p>
+						<p><input type="radio" name="frage15" id="frage15_2" value="klamottengeschaeft"><label for="frage15_2">Im Kleidungs-Geschäft</label></p>
 						<p><input type="radio" name="frage15" id="frage15_3" value="supermarkt"><label for="frage15_3">Im Supermarkt</label></p>
 						<p><input type="radio" name="frage15" id="frage15_4" value="gebraucht"><label for="frage15_4">Gebraucht (Flohmarkt, Kleiderkreisel, eBay, ...)</label></p>
 					</div>
@@ -274,7 +274,7 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">16</div>
 					<div class="frage">
-						<h3>Wie denken Sie über Klamotten, die unter fragwürdigen Bedingungen hergestellt wurden?</h3> 
+						<h3>Wie denken Sie über Kleidung, die unter fragwürdigen Bedingungen hergestellt wurden?</h3> 
 						<p><input type="radio" name="frage16" id="frage16_1" value="egal"><label for="frage16_1">Ist mir egal, hauptsache günstig.</label></p>
 						<p><input type="radio" name="frage16" id="frage16_2" value="wuerde gerne"><label for="frage16_2">Ich würde gerne darauf achten, aber wo soll man dann noch etwas kaufen?</label></p>
 						<p><input type="radio" name="frage16" id="frage16_3" value="wenn moeglich"><label for="frage16_3">Wenn möglich, kaufe ich nur Kleidung, die nicht unter schlechten Bedingungen hergestellt wird.</label></p>

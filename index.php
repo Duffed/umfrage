@@ -105,6 +105,7 @@
 						<p><input type="radio" name="frage3" id="frage3_1" value="mehrmals die woche"><label for="frage3_1">Mehrmals die Woche</label></p>
 						<p><input type="radio" name="frage3" id="frage3_2" value="woechentlich"><label for="frage3_2">Wöchtenlich</label></p>
 						<p><input type="radio" name="frage3" id="frage3_3" value="monatlich"><label for="frage3_3">Monatlich</label></p>
+						<p><input type="radio" name="frage3" id="frage3_6" value="2-3x monatlich"><label for="frage3_6">2-3x Monatlich</label></p>
 						<p><input type="radio" name="frage3" id="frage3_4" value="2 mal im jahr"><label for="frage3_4">2-3x im Jahr</label></p>
 						<p><input type="radio" name="frage3" id="frage3_5" value="jaehrlich"><label for="frage3_5">Jährlich</label></p>
 					</div>

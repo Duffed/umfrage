@@ -129,8 +129,6 @@
 
 			<!-- Kategorie 2 -->
 			<div class="category cat3">
-				<h2>Financial aspects</h2>
-
 				<!-- Frage 5 -->
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">5</div>

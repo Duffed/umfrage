@@ -68,8 +68,8 @@
 			
 					<div class="frage fullwidth">
 						<h3>Sex:</h3>
-						<p><input type="radio" name="geschlecht" id="geschlecht_m" value="m"><label for="geschlecht_m">m</label></p>
-						<p><input type="radio" name="geschlecht" id="geschlecht_w" value="w"><label for="geschlecht_w">f</label></p>
+						<p><input type="radio" name="geschlecht" id="geschlecht_m" value="m"><label for="geschlecht_m">Male</label></p>
+						<p><input type="radio" name="geschlecht" id="geschlecht_w" value="w"><label for="geschlecht_w">Female</label></p>
 					</div>
 				</div>
 
@@ -129,13 +129,13 @@
 
 			<!-- Kategorie 2 -->
 			<div class="category cat3">
-				<h2>Finanzieller Aspekt</h2>
+				<h2>Financial aspects</h2>
 
 				<!-- Frage 5 -->
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">5</div>
 					<div class="frage">
-						<h3>Wieviel Geld geben Sie im Schnitt für eine <b>Winterjacke</b> aus?</h3>
+						<h3>How much money do you spend on average for a winter jacket?</h3>
 						<p><input type="text" onChange="checkValue('frage5')" id="frage5" name="frage5"></p>
 					</div>
 				</div>
@@ -144,7 +144,7 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">6</div>
 					<div class="frage">
-						<h3>Wieviel Geld geben Sie im Schnitt für einen <b>Pullover</b> aus?</h3>
+						<h3>How much money do you spend on average for a sweater?</h3>
 						<p><input type="text" onChange="checkValue('frage6')" id="frage6" name="frage6"></p>
 					</div>
 				</div>
@@ -153,7 +153,7 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">7</div>
 					<div class="frage">
-						<h3>Wieviel Geld geben Sie im Schnitt für eine <b>T-Shirt/Top</b> aus?</h3>
+						<h3>How much money do you spend on average for a t-shirt?</h3>
 						<p><input type="text" onChange="checkValue('frage7')" id="frage7" name="frage7"></p>
 					</div>
 				</div>
@@ -162,7 +162,7 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">8</div>
 					<div class="frage">
-						<h3>Wieviel Geld geben Sie im Schnitt für ein/eine <b>Hemd/Bluse</b> aus?</h3>
+						<h3>How much money do you spend on average for a shirt?</h3>
 						<p><input type="text" onChange="checkValue('frage8')" id="frage8" name="frage8"></p>
 					</div>
 				</div>
@@ -171,7 +171,7 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">9</div>
 					<div class="frage">
-						<h3>Wieviel Geld geben Sie im Schnitt für eine <b>Hose/Jeans</b> aus?</h3>
+						<h3>How much money do you spend on average for a pair of jeans/pants?</h3>
 						<p><input type="text" onChange="checkValue('frage9')" id="frage9" name="frage9"></p>
 					</div>
 				</div>
@@ -180,19 +180,18 @@
 
 			<!-- Kategorie 3 -->
 			<div class="category cat4">
-				<h2>Sonstige Kaufkriterien</h2>
 
 				<!-- Frage 10 -->
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">10</div>
 					<div class="frage">
-						<h3>Kreuzen Sie bitte an, was Ihnen beim Kauf von Kleidungsstücken generell wichtig ist</h3>
-						<p><input type="checkbox" name="frage10[]" id="frage10_1" value="Marke"><label for="frage10_1">Die Marke/Firma</p>
-						<p><input type="checkbox" name="frage10[]" id="frage10_2" value="Qualitaet"><label for="frage10_2">Die Qualität des Produktes</p>
-						<p><input type="checkbox" name="frage10[]" id="frage10_3" value="Trend"><label for="frage10_3">Das Produkt soll im Trend liegen/in der Mode sein</p>
-						<p><input type="checkbox" name="frage10[]" id="frage10_4" value="Preis"><label for="frage10_4">Der Preis sollte möglichst niedrig sein</p>
-						<p><input type="checkbox" name="frage10[]" id="frage10_5" value="Herstellungsbedingungen"><label for="frage10_5">Die Bedingungen bei der Herstellung für die Arbeiter (Fairtrade)</p>
-						<p><input type="checkbox" name="frage10[]" id="frage10_6" value="Pflegeleicht"><label for="frage10_6">Das Kleidungsstück muss Pflegeleicht sein</p>
+						<h3>Please mark what is generally important to you when buying clothes</h3>
+						<p><input type="checkbox" name="frage10[]" id="frage10_1" value="Marke"><label for="frage10_1">The brand</p>
+						<p><input type="checkbox" name="frage10[]" id="frage10_2" value="Qualitaet"><label for="frage10_2">The quality</p>
+						<p><input type="checkbox" name="frage10[]" id="frage10_3" value="Trend"><label for="frage10_3">Trend/Fashion</p>
+						<p><input type="checkbox" name="frage10[]" id="frage10_4" value="Preis"><label for="frage10_4">Low price</p>
+						<p><input type="checkbox" name="frage10[]" id="frage10_5" value="Herstellungsbedingungen"><label for="frage10_5">Fairtrade</p>
+						<p><input type="checkbox" name="frage10[]" id="frage10_6" value="Pflegeleicht"><label for="frage10_6">Easy to clean</p>
 					</div>
 				</div>
 
@@ -200,14 +199,14 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">11</div>
 					<div class="frage">
-						<h3>Und was ist am wichtigsten?</h3>
-						<p><input type="radio" name="frage11" id="frage11_1" value="Marke"><label for="frage11_1">Die Marke/Firma</label></p>
-						<p><input type="radio" name="frage11" id="frage11_2" value="Qualitaet"><label for="frage11_2">Die Qualität des Produktes</label></p>
-						<p><input type="radio" name="frage11" id="frage11_3" value="Trend"><label for="frage11_3">Das Produkt soll im Trend liegen/in der Mode sein</label></p>
-						<p><input type="radio" name="frage11" id="frage11_4" value="Kein Trend"><label for="frage11_4">Das Produkt soll <b>nicht</b> im Trend liegen/in der Mode sein</label></p>
-						<p><input type="radio" name="frage11" id="frage11_5" value="Preis"><label for="frage11_5">Der Preis sollte möglichst niedrig sein</label></p>
-						<p><input type="radio" name="frage11" id="frage11_6" value="Herstellungsbedingungen"><label for="frage11_6">Die Bedingungen bei der Herstellung für die Arbeiter (Fairtrade)</label></p>
-						<p><input type="radio" name="frage11" id="frage11_7" value="Pflegeleicht"><label for="frage11_7">Das Kleidungsstück muss Pflegeleicht sein</label></p>
+						<h3>And what is the most important??</h3>
+						<p><input type="radio" name="frage11" id="frage11_1" value="Marke"><label for="frage11_1">The brand</label></p>
+						<p><input type="radio" name="frage11" id="frage11_2" value="Qualitaet"><label for="frage11_2">The quality</label></p>
+						<p><input type="radio" name="frage11" id="frage11_3" value="Trend"><label for="frage11_3">Trend/Fashion</label></p>
+						<p><input type="radio" name="frage11" id="frage11_4" value="Kein Trend"><label for="frage11_4"><b>Not</b> in trend</label></p>
+						<p><input type="radio" name="frage11" id="frage11_5" value="Preis"><label for="frage11_5">Low price</label></p>
+						<p><input type="radio" name="frage11" id="frage11_6" value="Herstellungsbedingungen"><label for="frage11_6">Fairtrade</label></p>
+						<p><input type="radio" name="frage11" id="frage11_7" value="Pflegeleicht"><label for="frage11_7">Easy to clean</label></p>
 					</div>
 				</div>
 
@@ -215,11 +214,11 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">12</div>
 					<div class="frage">
-						<h3>Ist Ihnen die Marke der Kleidungsstücke Ihrer Kinder wichtig?</h3>
-						<p><input type="radio" name="frage12" id="frage12_1" value="ja"><label for="frage12_1">Ja, immer</label></p>
-						<p><input type="radio" name="frage12" id="frage12_2" value="bei bestimmten"><label for="frage12_2">Nur bei bestimmten Kleidungsstücke (z.B.) Schuhe</label></p>
-						<p><input type="radio" name="frage12" id="frage12_3" value="nein"><label for="frage12_3">Nein</label></p>
-						<p><input type="radio" name="frage12" id="frage12_4" value="keine kinder"><label for="frage12_4">Ich habe keine Kinder</label></p>
+						<h3>Is the brand of your kids clothes important to you??</h3>
+						<p><input type="radio" name="frage12" id="frage12_1" value="ja"><label for="frage12_1">Yes always</label></p>
+						<p><input type="radio" name="frage12" id="frage12_2" value="bei bestimmten"><label for="frage12_2">Only for certain parts like shoes for exmaple</label></p>
+						<p><input type="radio" name="frage12" id="frage12_3" value="nein"><label for="frage12_3">No</label></p>
+						<p><input type="radio" name="frage12" id="frage12_4" value="keine kinder"><label for="frage12_4">I don't have any kids</label></p>
 					</div>
 				</div>
 
@@ -227,16 +226,15 @@
 
 			<!-- Kategorie 4 -->
 			<div class="category cat5">
-				<h2>Kaufverhalten</h2>
 
 				<!-- Frage 13 -->
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">13</div>
 					<div class="frage">
-						<h3>Wann bzw. warum kaufen Sie Klamotten?</h3>
-						<p><input type="radio" name="frage13" id="frage13_1" value="wenn noetig"><label for="frage13_1">Nur, wenn ich wirklich neue brauche</label></p>
-						<p><input type="radio" name="frage13" id="frage13_2" value="neuer trend"><label for="frage13_2">Sobald neue Kollektionen erscheinen/neue Trends</label></p>
-						<p><input type="radio" name="frage13" id="frage13_3" value="spontan"><label for="frage13_3">Spontan, wenn mir danach ist</label></p>
+						<h3>When or why do you new clothes?</h3>
+						<p><input type="radio" name="frage13" id="frage13_1" value="wenn noetig"><label for="frage13_1">Only when I really need new ones</label></p>
+						<p><input type="radio" name="frage13" id="frage13_2" value="neuer trend"><label for="frage13_2">As soon as new collections come out</label></p>
+						<p><input type="radio" name="frage13" id="frage13_3" value="spontan"><label for="frage13_3">Rather Spontaneously</label></p>
 					</div>
 				</div>
 
@@ -244,9 +242,9 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">14</div>
 					<div class="frage">
-						<h3>Kaufen Sie Mode eher bewusst oder spontan ein?</h3> 
-						<p>0 = Ich überlege genau, bevor ich mir neue Klamotten kaufe </p>
-						<p>10 = Ich liebe shoppen und erwische mich regelmäßig dabei, spontan etwas zu kaufen</p>
+						<h3>Do you buy new clothes rather spontaneously, or rather consciously?</h3> 
+						<p>0 = I think carefully before I buy new clothes </p>
+						<p>10 = I love shopping and find myself regularly going to spontaneously buy something</p>
 						<p><input type="text" name="frage14" id="frage14" onChange="checkif0to10('frage14')"></p>
 					</div>
 				</div>
@@ -255,11 +253,11 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">15</div>
 					<div class="frage">
-						<h3>Wo kaufen Sie am liebsten Klamotten?</h3> 
-						<p><input type="radio" name="frage15" id="frage15_1" value="internet"><label for="frage15_1">Im Internet</label></p>
-						<p><input type="radio" name="frage15" id="frage15_2" value="klamottengeschaeft"><label for="frage15_2">Im Klamotten-Geschäft</label></p>
-						<p><input type="radio" name="frage15" id="frage15_3" value="supermarkt"><label for="frage15_3">Im Supermarkt</label></p>
-						<p><input type="radio" name="frage15" id="frage15_4" value="gebraucht"><label for="frage15_4">Gebraucht (Flohmarkt, Kleiderkreisel, eBay, ...)</label></p>
+						<h3>Where do you buy clothes?</h3> 
+						<p><input type="radio" name="frage15" id="frage15_1" value="internet"><label for="frage15_1">Internet</label></p>
+						<p><input type="radio" name="frage15" id="frage15_2" value="klamottengeschaeft"><label for="frage15_2">Clothing store</label></p>
+						<p><input type="radio" name="frage15" id="frage15_3" value="supermarkt"><label for="frage15_3">Supermarket</label></p>
+						<p><input type="radio" name="frage15" id="frage15_4" value="gebraucht"><label for="frage15_4">Used clothes (Flea market, eBay, ...)</label></p>
 					</div>
 				</div>
 
@@ -268,17 +266,16 @@
 
 			<!-- Kategorie 5 -->
 			<div class="category cat6">
-				<h2>Psychologischer Aspekt</h2>
 
 				<!-- Frage 16 -->
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">16</div>
 					<div class="frage">
-						<h3>Wie denken Sie über Klamotten, die unter fragwürdigen Bedingungen hergestellt wurden?</h3> 
-						<p><input type="radio" name="frage16" id="frage16_1" value="egal"><label for="frage16_1">Ist mir egal, hauptsache günstig.</label></p>
-						<p><input type="radio" name="frage16" id="frage16_2" value="wuerde gerne"><label for="frage16_2">Ich würde gerne darauf achten, aber wo soll man dann noch etwas kaufen?</label></p>
-						<p><input type="radio" name="frage16" id="frage16_3" value="wenn moeglich"><label for="frage16_3">Wenn möglich, kaufe ich nur Kleidung, die nicht unter schlechten Bedingungen hergestellt wird.</label></p>
-						<p><input type="radio" name="frage16" id="frage16_4" value="wichtig"><label for="frage16_4">Ich achte sehr darauf und kaufe keine Kleidung, die unter schlechten Bedingungen hergestellt wird.</label></p>
+						<h3>What do you think about clothes that were made under questionable conditions?</h3> 
+						<p><input type="radio" name="frage16" id="frage16_1" value="egal"><label for="frage16_1">I don't care as long as it's cheap</label></p>
+						<p><input type="radio" name="frage16" id="frage16_2" value="wuerde gerne"><label for="frage16_2">I'd like to pay more attention to it but where am I supposed to buy clothes then?</label></p>
+						<p><input type="radio" name="frage16" id="frage16_3" value="wenn moeglich"><label for="frage16_3">If possible I buy clothes that are produced under good conditions</label></p>
+						<p><input type="radio" name="frage16" id="frage16_4" value="wichtig"><label for="frage16_4">I only buy clothes that are produced under good conditions.</label></p>
 					</div>
 				</div>
 
@@ -286,9 +283,9 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">17</div>
 					<div class="frage">
-						<h3>Wie wichtig ist es Ihnen, im Trend zu liegen?</h3> 
-						<p>0 = Überhaupt nicht</p>
-						<p>10 = Sehr wichtig</p>
+						<h3>How important is it to you to be in "trend"?</h3> 
+						<p>0 = Not at all</p>
+						<p>10 = Very important</p>
 						<p><input type="text" name="frage17" id="frage17" onChange="checkif0to10('frage17')"></p>
 					</div>
 				</div>
@@ -297,9 +294,9 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">18</div>
 					<div class="frage">
-						<h3>Sind Sie jemand der einer bestimmten Marke aufgrund von Image, Qualität oder Design immer treu bleibt?</h3> 
-						<p><input type="radio" name="frage18" id="frage18_1" value="ja"><label for="frage18_1">Ja</label></p>
-						<p><input type="radio" name="frage18" id="frage18_2" value="nein"><label for="frage18_2">Nein</label></p>
+						<h3>Do you stay faithful to a brand because of image quality or design?</h3> 
+						<p><input type="radio" name="frage18" id="frage18_1" value="ja"><label for="frage18_1">Yes</label></p>
+						<p><input type="radio" name="frage18" id="frage18_2" value="nein"><label for="frage18_2">No</label></p>
 					</div>
 				</div>
 
@@ -307,15 +304,15 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">19</div>
 					<div class="frage">
-						<h3>Ist Ihnen die Präsentation eines Produktes im Geschäft oder im Online-Shop wichtig?</h3> 
-						<p><input type="radio" name="frage19" id="frage19_1" value="ja"><label for="frage19_1">Ja</label></p>
-						<p><input type="radio" name="frage19" id="frage19_2" value="nein"><label for="frage19_2">Nein</label></p>
+						<h3>Is the presentation of a product in a clothing store or online important to you?</h3> 
+						<p><input type="radio" name="frage19" id="frage19_1" value="ja"><label for="frage19_1">Yes</label></p>
+						<p><input type="radio" name="frage19" id="frage19_2" value="nein"><label for="frage19_2">No</label></p>
 					</div>
 				</div>
 
 			</div>
 
-			<input value="Senden" id="b_submit" type="submit" name="b_absenden">
+			<input value="Send" id="b_submit" type="submit" name="b_absenden">
 		</form>
 	</div>
 </body>

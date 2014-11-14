@@ -45,8 +45,8 @@
 <body>
 
 	<div id="wrapper">
-		<h1>Umfrage: <b>Bekleidung</b></h1>
-		<p class="intro">Die Umfrage ist völlig Anonym und dient lediglich zu Schulungszwecken</p>
+		<h1>Poll: <b>Clothing</b></h1>
+		<p class="intro">used only for training purposes</p>
 		<!--img-->
 
 		<form action="danke.php" method="POST">
@@ -58,7 +58,7 @@
 				<div class="fragen_wrapper clearfix">
 		
 					<div class="frage fullwidth">
-						<h3>Alter:</h3>
+						<h3>Age:</h3>
 						<p><input onChange="checkValue('alter')" id="alter" type="text" name="alter"></p>
 					</div>
 				</div>
@@ -67,9 +67,9 @@
 				<div class="fragen_wrapper clearfix">
 			
 					<div class="frage fullwidth">
-						<h3>Geschlecht:</h3>
-						<p><input type="radio" name="geschlecht" id="geschlecht_m" value="m"><label for="geschlecht_m">Männlich</label></p>
-						<p><input type="radio" name="geschlecht" id="geschlecht_w" value="w"><label for="geschlecht_w">Weiblich</label></p>
+						<h3>Sex:</h3>
+						<p><input type="radio" name="geschlecht" id="geschlecht_m" value="m"><label for="geschlecht_m">m</label></p>
+						<p><input type="radio" name="geschlecht" id="geschlecht_w" value="w"><label for="geschlecht_w">f</label></p>
 					</div>
 				</div>
 
@@ -77,13 +77,12 @@
 
 			<!-- Kategorie 1: Konsumverhalten -->
 			<div class="category cat2">
-				<h2>Konsumverhalten</h2>
 
 				<!-- Frage 1 -->
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">1</div>
 					<div class="frage">
-						<h3>Schätzen Sie, wie viele Kleidungsstücke Sie besitzen (ausgenommen Unterwäsche & Schuhe)</h3>
+						<h3>Estimate how many pieces of clothing you own (except underwear and shoes)</h3>
 						<p><input type="text" onChange="checkValue('frage1')" id="frage1" name="frage1"></p>
 					</div>
 				</div>
@@ -92,7 +91,7 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">2</div>
 					<div class="frage">
-						<h3>Wie viele Kleidungsstücke besitzen Sie, bei denen Sie sich nicht daran erinnern können, wann Sie sie das letzte Mal getragen haben?</h3>
+						<h3>How many pieces of clothing you own, where you can not remember when you wore it the last time?</h3>
 						<p><input type="text" onChange="checkValue('frage2')" id="frage2" name="frage2"></p>
 					</div>
 				</div>
@@ -101,13 +100,13 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">3</div>
 					<div class="frage">
-						<h3>Wie oft gehen Sie shoppen/Klamotten kaufen?</h3>
-						<p><input type="radio" name="frage3" id="frage3_1" value="mehrmals die woche"><label for="frage3_1">Mehrmals die Woche</label></p>
-						<p><input type="radio" name="frage3" id="frage3_2" value="woechentlich"><label for="frage3_2">Wöchtenlich</label></p>
-						<p><input type="radio" name="frage3" id="frage3_3" value="monatlich"><label for="frage3_3">Monatlich</label></p>
-						<p><input type="radio" name="frage3" id="frage3_6" value="2-3x monatlich"><label for="frage3_6">2-3x Monatlich</label></p>
-						<p><input type="radio" name="frage3" id="frage3_4" value="2 mal im jahr"><label for="frage3_4">2-3x im Jahr</label></p>
-						<p><input type="radio" name="frage3" id="frage3_5" value="jaehrlich"><label for="frage3_5">Jährlich</label></p>
+						<h3>How often do you shop / buy clothes?</h3>
+						<p><input type="radio" name="frage3" id="frage3_1" value="mehrmals die woche"><label for="frage3_1">Several times a week</label></p>
+						<p><input type="radio" name="frage3" id="frage3_2" value="woechentlich"><label for="frage3_2">Weekly</label></p>
+						<p><input type="radio" name="frage3" id="frage3_3" value="monatlich"><label for="frage3_3">Monthly</label></p>
+						<p><input type="radio" name="frage3" id="frage3_6" value="2-3x monatlich"><label for="frage3_6">2-3x a month</label></p>
+						<p><input type="radio" name="frage3" id="frage3_4" value="2 mal im jahr"><label for="frage3_4">2-3x a year</label></p>
+						<p><input type="radio" name="frage3" id="frage3_5" value="jaehrlich"><label for="frage3_5">Yearly</label></p>
 					</div>
 				</div>
 
@@ -115,13 +114,13 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">4</div>
 					<div class="frage">
-						<h3>Wieviel Geld geben Sie jährlich ca. für Klamotten aus?</h3>
+						<h3>About how much money do you spend per year for clothes?</h3>
 						<p><input type="radio" name="frage4" id="frage4_1" value="0-100"><label for="frage4_1">0-50</label></p>
 						<p><input type="radio" name="frage4" id="frage4_2" value="50-150"><label for="frage4_2">50-150</label></p>
 						<p><input type="radio" name="frage4" id="frage4_3" value="150-300"><label for="frage4_3">150-300</label></p>
 						<p><input type="radio" name="frage4" id="frage4_4" value="300-600"><label for="frage4_4">300-600</label></p>
 						<p><input type="radio" name="frage4" id="frage4_5" value="600-1000"><label for="frage4_5">600-1000</label></p>
-						<p><input type="radio" name="frage4" id="frage4_6" value=">1000"><label for="frage4_6">Mehr als 1000</label></p>
+						<p><input type="radio" name="frage4" id="frage4_6" value=">1000"><label for="frage4_6">More than 1000</label></p>
 					</div>
 				</div>
 

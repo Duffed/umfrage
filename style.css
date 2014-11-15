@@ -48,6 +48,14 @@ img {
 	top:0px;
 	right: 0px;
 }
+a, a:visited, a:focus {
+	color: #965252;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
 h3 { font-size: 1.3rem;margin-bottom:.5rem}
 h2 { font-size: 2rem; text-shadow: 2px 2px 2px #aaa;}
 div.category h2 {

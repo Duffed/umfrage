@@ -17,7 +17,7 @@
 					document.getElementById(i).value = eingabe;
 				} else {
 					// Wert ist keine Zahl
-					alert(eingabe+" ist keine Zahl");
+					alert(eingabe+" is not a number");
 					document.getElementById(i).value = '';
 				}
 			}
@@ -29,13 +29,31 @@
 					if (eingabe >= 0 && eingabe <= 10) {
 						document.getElementById(i).value = eingabe;
 					} else {
-						alert("Bitte ein Zahl zwischen 0 und 10 eingeben");
+						alert("Please choose a number between 0 and 10");
 						document.getElementById(i).value = '';
 					}
 					
 				} else {
 					// Wert ist keine Zahl
-					alert(eingabe+" ist keine Zahl");
+					alert(eingabe+" is not a number");
+					document.getElementById(i).value = '';
+				}
+			}
+
+			function checkage(i) {
+				var eingabe = document.getElementById(i).value;
+				if ( !isNaN(eingabe) ) {
+					// Wert ist eine Zahl
+					if (eingabe >= 8 && eingabe <= 100) {
+						document.getElementById(i).value = eingabe;
+					} else {
+						alert("Please tell us your real age");
+						document.getElementById(i).value = '';
+					}
+					
+				} else {
+					// Wert ist keine Zahl
+					alert(eingabe+" is not a number");
 					document.getElementById(i).value = '';
 				}
 			}
@@ -47,9 +65,10 @@
 	<div id="wrapper">
 		<h1>Poll: <b>Clothing</b></h1>
 		<p class="intro">Used only for training purposes</p>
+		<p class="intro"><a href="index.php">Deutsche Version</a></p>
 		<!--img-->
 
-		<form action="danke.php" method="POST">
+		<form action="thanks.php" method="POST">
 
 			<!-- Alter & Geschlecht -->
 			<div class="category cat1">
@@ -59,7 +78,7 @@
 		
 					<div class="frage fullwidth">
 						<h3>Age:</h3>
-						<p><input onChange="checkValue('alter')" id="alter" type="text" name="alter"></p>
+						<p><input onChange="checkage('alter')" id="alter" type="text" name="alter"></p>
 					</div>
 				</div>
 
@@ -77,7 +96,7 @@
 
 			<!-- Kategorie 1: Konsumverhalten -->
 			<div class="category cat2">
-
+				<h2>Consumer behavior</h2>
 				<!-- Frage 1 -->
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">1</div>
@@ -103,9 +122,8 @@
 						<h3>How often do you shop / buy clothes?</h3>
 						<p><input type="radio" name="frage3" id="frage3_1" value="mehrmals die woche"><label for="frage3_1">Several times a week</label></p>
 						<p><input type="radio" name="frage3" id="frage3_2" value="woechentlich"><label for="frage3_2">Weekly</label></p>
-						<p><input type="radio" name="frage3" id="frage3_3" value="monatlich"><label for="frage3_3">Monthly</label></p>
 						<p><input type="radio" name="frage3" id="frage3_6" value="2-3x monatlich"><label for="frage3_6">2-3x a month</label></p>
-						<p><input type="radio" name="frage3" id="frage3_4" value="2 mal im jahr"><label for="frage3_4">2-3x a year</label></p>
+						<p><input type="radio" name="frage3" id="frage3_3" value="monatlich"><label for="frage3_3">Monthly</label></p>
 						<p><input type="radio" name="frage3" id="frage3_5" value="jaehrlich"><label for="frage3_5">Yearly</label></p>
 					</div>
 				</div>
@@ -129,6 +147,8 @@
 
 			<!-- Kategorie 2 -->
 			<div class="category cat3">
+				<h2>Financial aspect</h2>
+
 				<!-- Frage 5 -->
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">5</div>
@@ -178,7 +198,7 @@
 
 			<!-- Kategorie 3 -->
 			<div class="category cat4">
-
+				<h2>Other purchase criteria</h2>
 				<!-- Frage 10 -->
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">10</div>
@@ -224,12 +244,13 @@
 
 			<!-- Kategorie 4 -->
 			<div class="category cat5">
+				<h2>Buying behavior</h2>
 
 				<!-- Frage 13 -->
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">13</div>
 					<div class="frage">
-						<h3>When or why do you new clothes?</h3>
+						<h3>When or why do you buy new clothes?</h3>
 						<p><input type="radio" name="frage13" id="frage13_1" value="wenn noetig"><label for="frage13_1">Only when I really need new ones</label></p>
 						<p><input type="radio" name="frage13" id="frage13_2" value="neuer trend"><label for="frage13_2">As soon as new collections come out</label></p>
 						<p><input type="radio" name="frage13" id="frage13_3" value="spontan"><label for="frage13_3">Rather Spontaneously</label></p>
@@ -260,10 +281,11 @@
 				</div>
 
 			</div>
-
+				
 
 			<!-- Kategorie 5 -->
 			<div class="category cat6">
+				<h2>Miscellaneous</h2>
 
 				<!-- Frage 16 -->
 				<div class="fragen_wrapper clearfix">

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>		
-		<title>Umfrage zum Thema Bekleidung</title>
+		<title>Poll: Clothing</title>
 		<meta name="author" content="Joscha Diederichs & Max Gundlach">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<LINK REL="SHORTCUT ICON" HREF="favicon.ico">
@@ -25,7 +25,7 @@
 			for ($i = 1; $i <= 19; $i++){
 				if (!isset($_POST["frage".$i]) OR $_POST["frage".$i] == "" ){
 					$check = false;
-					echo "Noch nicht ausgefüllt: <b>Frage ".$i."</b>";
+					echo "Not filled out: <b>Question ".$i."</b>";
 					echo"<br>";
 				}
 			}
@@ -33,8 +33,8 @@
 			if ($check == false) {
 				?>
 					<br/>
-					<p><b>Bitte alle Felder ausfüllen</b></p>
-					<p><a href="javascript:history.back()">Zurück</a>
+					<p><b>Please fill in all fields</b></p>
+					<p><a href="javascript:history.back()">Back</a>
 				<?php
 			} else {
 			
@@ -64,7 +64,7 @@
 				//implode array
 				$frage10_implode = implode(", ",$frage10);
 				?>
-					<h1 class="danke">Vielen Dank für die Teilnahme</h1>
+					<h1 class="danke">Thank you for participating</h1>
 
 				<?php
 

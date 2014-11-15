@@ -40,6 +40,25 @@
 				}
 			}
 
+			function checkage(i) {
+				var eingabe = document.getElementById(i).value;
+				if ( !isNaN(eingabe) ) {
+					// Wert ist eine Zahl
+					if (eingabe >= 8 && eingabe <= 100) {
+						document.getElementById(i).value = eingabe;
+					} else {
+						alert("Bitte Ihr richtiges Alter angeben");
+						document.getElementById(i).value = '';
+					}
+					
+				} else {
+					// Wert ist keine Zahl
+					alert(eingabe+" ist keine Zahl");
+					document.getElementById(i).value = '';
+				}
+			}
+
+
 		</script>
 	</head>
 <body>
@@ -47,6 +66,7 @@
 	<div id="wrapper">
 		<h1>Umfrage: <b>Bekleidung</b></h1>
 		<p class="intro">Die Umfrage ist völlig Anonym und dient lediglich zu Schulungszwecken</p>
+		<p class="intro"><a href="index_eng.php">English version</a></p>
 		<!--img-->
 
 		<form action="danke.php" method="POST">
@@ -59,7 +79,7 @@
 		
 					<div class="frage fullwidth">
 						<h3>Alter:</h3>
-						<p><input onChange="checkValue('alter')" id="alter" type="text" name="alter"></p>
+						<p><input onChange="checkage('alter')" id="alter" type="text" name="alter"></p>
 					</div>
 				</div>
 
@@ -104,9 +124,8 @@
 						<h3>Wie oft gehen Sie shoppen/Kleidung kaufen?</h3>
 						<p><input type="radio" name="frage3" id="frage3_1" value="mehrmals die woche"><label for="frage3_1">Mehrmals die Woche</label></p>
 						<p><input type="radio" name="frage3" id="frage3_2" value="woechentlich"><label for="frage3_2">Wöchtenlich</label></p>
-						<p><input type="radio" name="frage3" id="frage3_3" value="monatlich"><label for="frage3_3">Monatlich</label></p>
 						<p><input type="radio" name="frage3" id="frage3_6" value="2-3x monatlich"><label for="frage3_6">2-3x Monatlich</label></p>
-						<p><input type="radio" name="frage3" id="frage3_4" value="2 mal im jahr"><label for="frage3_4">2-3x im Jahr</label></p>
+						<p><input type="radio" name="frage3" id="frage3_3" value="monatlich"><label for="frage3_3">Monatlich</label></p>
 						<p><input type="radio" name="frage3" id="frage3_5" value="jaehrlich"><label for="frage3_5">Jährlich</label></p>
 					</div>
 				</div>
@@ -269,7 +288,7 @@
 
 			<!-- Kategorie 5 -->
 			<div class="category cat6">
-				<h2>Psychologischer Aspekt</h2>
+				<h2>Sonstiges</h2>
 
 				<!-- Frage 16 -->
 				<div class="fragen_wrapper clearfix">

@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>		
-		<title>Umfrage zum Thema Bekleidung</title>
+		<title>Poll: Clothing</title>
 		<meta name="author" content="Joscha Diederichs & Max Gundlach">
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 		<LINK REL="SHORTCUT ICON" HREF="favicon.ico">
@@ -46,7 +46,7 @@
 
 	<div id="wrapper">
 		<h1>Poll: <b>Clothing</b></h1>
-		<p class="intro">used only for training purposes</p>
+		<p class="intro">Used only for training purposes</p>
 		<!--img-->
 
 		<form action="danke.php" method="POST">

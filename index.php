@@ -253,7 +253,7 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">13</div>
 					<div class="frage">
-						<h3>Wann bzw. warum kaufen Sie Kleidung?</h3>
+						<h3>Wann bzw. warum gehen Sie los, um Kleidung zu kaufen?</h3>
 						<p><input type="radio" name="frage13" id="frage13_1" value="wenn noetig"><label for="frage13_1">Nur, wenn ich wirklich neue brauche</label></p>
 						<p><input type="radio" name="frage13" id="frage13_2" value="neuer trend"><label for="frage13_2">Sobald neue Kollektionen erscheinen/neue Trends</label></p>
 						<p><input type="radio" name="frage13" id="frage13_3" value="spontan"><label for="frage13_3">Spontan, wenn mir danach ist</label></p>
@@ -264,7 +264,7 @@
 				<div class="fragen_wrapper clearfix">
 					<div class="counter">14</div>
 					<div class="frage">
-						<h3>Kaufen Sie Mode eher bewusst oder spontan ein?</h3> 
+						<h3>Wenn Sie sich in einem Laden befinden und Kleidungsstücke sehen, die Ihnen gefallen, kaufen Sie diese eher Spontan ein, oder &uuml;berlegen Sie es sich genau, bevor sie zugreifen?</h3> 
 						<p>0 = Ich überlege genau, bevor ich mir neue Kleidung kaufe </p>
 						<p>10 = Ich liebe shoppen und erwische mich regelmäßig dabei, spontan etwas zu kaufen</p>
 						<p><input type="text" name="frage14" id="frage14" onChange="checkif0to10('frage14')"></p>

@@ -65,6 +65,7 @@
 	<div id="wrapper">
 		<h1>Poll: <b>Clothing</b></h1>
 		<p class="intro">Used only for training purposes</p>
+		<p class="intro">Currency: <b>Euro</b></p>
 		<p class="intro"><a href="index.php">Deutsche Version</a></p>
 		<!--img-->
 
